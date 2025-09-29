@@ -31,3 +31,10 @@ The dashboards provide a high-level overview of key business metrics and trends.
 
 <img width="1368" height="774" alt="Overall_Dashboard" src="https://github.com/user-attachments/assets/36ed9d31-f802-4526-be8d-e7ef4f4accad" />
 
+
+# Technologies Used
+- SQL (MySQL Workbench) for data extraction, cleaning, and analysis
+- Power BI (optional) for visualization
+- GitHub for version control
+
+
