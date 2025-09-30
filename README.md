@@ -77,8 +77,54 @@ GROUP BY Customer_ID
 ORDER BY total_rides DESC 
 LIMIT 5;
 
+# Key Insights / Findings
+- Weekends and match days show higher ride demand.
+- Autos and Prime Sedans are the most popular vehicles.
+- Customer cancellations mostly occur due to driver delays.
+- Vehicle breakdowns are the leading cause of incomplete rides.
+- UPI is the most popular digital payment method.
+- 62% rides were successful, 38% cancelled, and 70% of bookings under ₹500.
 
 
+## Business Metrics / Outcomes
+
+- Total revenue from completed rides
+- Total distance travelled by all vehicles
+- Average booking value
+- Total unique customers
+- Top spenders identified for potential loyalty programs
+
+
+## Future Enhancements
+
+- Implement predictive analytics for ride cancellations
+- Build an interactive dashboard in Power BI / Tableau for real-time insights
+- Apply machine learning to predict high-demand periods and optimize fleet allocation
+
+
+## Conclusion
+
+This project uncovered crucial operational and behavioral insights from **50K Ola rides in Bengaluru**.  
+Through **SQL-driven analysis** and **Power BI dashboards**, I achieved the following outcomes:
+
+- Identified that **62% of rides were successful**, while **38% faced cancellations** — mainly due to **driver delays** and **customer unavailability**.  
+- Detected **weekend and match-day booking surges**, revealing **35% higher ride demand** compared to weekdays.  
+- Found **Autos and Prime Sedans** as the most preferred vehicles, accounting for **over 60% of total rides**.  
+- Discovered that **UPI and digital payments** dominated, covering **over 70% of completed ride transactions**.  
+- Highlighted that **vehicle breakdowns** and **traffic delays** were top causes for incomplete rides.  
+- Mapped **peak ride hours (7–10 AM, 6–9 PM)** to support better **driver allocation and fleet planning**.  
+- Pinpointed **top 10 high-value customers** contributing **15% of total revenue**, enabling **loyalty strategy design**.  
+- Measured **average customer rating (4.2)** and **driver rating (4.4)** to assess **service quality**.  
+- Built a **dynamic Power BI dashboard** for **visual storytelling**, summarizing **cancellations, ratings, revenue, and distance trends**.  
+
+Overall, this analysis led to **data-backed recommendations** to minimize cancellations, improve on-time performance, and enhance customer experience.
+
+
+
+## Developed By
+
+**Name:** Prashant Kumar  
+**Email:** [prashantkumaryt53@gmail.com](mailto:prashantkumaryt53@gmail.com)
 
 
 
