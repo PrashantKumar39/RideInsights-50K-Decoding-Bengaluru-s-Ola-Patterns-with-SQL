@@ -1,3 +1,4 @@
+
 ## RideInsights 50K: Decoding Bengaluru’s Ola Patterns with SQL
 
 
@@ -36,5 +37,50 @@ The dashboards provide a high-level overview of key business metrics and trends.
 - SQL (MySQL Workbench) for data extraction, cleaning, and analysis
 - Power BI (optional) for visualization
 - GitHub for version control
+
+# Data Analysis / EDA
+
+- Successful vs Cancelled Bookings
+- Ride distance analysis by vehicle type
+- Top customers by booking count
+- Cancellation reasons (by customers & drivers)
+- Revenue distribution by payment method
+- Average ratings of drivers and customers
+
+
+
+## Driver & Customer Ratings
+
+<img width="1542" height="857" alt="Rating" src="https://github.com/user-attachments/assets/ea0ec08e-406c-4d97-8955-05f428a9459c" />
+
+## Ride Trends and Booking Status Overview
+
+
+<img width="1097" height="614" alt="Images3" src="https://github.com/user-attachments/assets/b9537388-70c1-4b3f-9dec-6b10f43b7ed5" />
+
+
+## Cancellation Trends: Customer vs Driver
+
+<img width="1533" height="861" alt="Cancellation" src="https://github.com/user-attachments/assets/fe68eb6e-a99f-4605-ae51-8187c7a2fc4e" />
+
+## Vehicle Type Analysis
+
+<img width="1539" height="899" alt="Vehicle type" src="https://github.com/user-attachments/assets/8ebae9e5-755f-42b8-9154-15d788ba79fb" />
+
+
+## All SQL queries for EDA, metrics calculation, and insights are included in `RideInsights 50K- Decoding Bengaluru’s Ola Patterns with SQL.sql`.
+
+-- Example: Top 5 customers by rides booked
+SELECT Customer_ID, COUNT(Booking_ID) AS total_rides 
+FROM ola_booking_table 
+GROUP BY Customer_ID 
+ORDER BY total_rides DESC 
+LIMIT 5;
+
+
+
+
+
+
 
 
