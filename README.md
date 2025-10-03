@@ -12,6 +12,7 @@
 ---
 This project analyzes 50,000 Bengaluru Ola ride bookings using SQL to uncover insights on customer behavior, driver performance, cancellations, revenue trends, and ride patterns. It demonstrates data-driven decision-making and practical SQL-based analysis for large-scale ride-hailing data. The project also highlights key operational challenges and opportunities to optimize service efficiency.
 
+---
 ## Project Goals / Objectives (Enhanced & Unique Version)
 - Simulated a real-world ride-hailing environment by enforcing realistic constraints (success rate 62%, cancellations under 38%, incomplete <6%).
 - Designed a dual-perspective analysis capturing both customer and driver behavior — a rare dimension in most SQL projects.
@@ -26,11 +27,9 @@ This project analyzes 50,000 Bengaluru Ola ride bookings using SQL to uncover in
 # Dataset
 - **Dataset:** Bengaluru_Ola_Booking_Data.csv (50,000 records)  
 - **Columns include:** Date, Time, Booking ID, Booking Status, Customer ID, Vehicle Type, Pickup & Drop Location, Ride Distance, Booking Value, Payment Method, Driver Ratings, Customer Ratings, Cancellation Details, etc.
-
-
+---
 # Dashboards Highlights
 The dashboards provide a high-level overview of key business metrics and trends.
---- 
 📊 Overall Performance
 - Total Booking Value: 34M
 - Total Bookings: 50K
