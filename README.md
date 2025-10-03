@@ -1,5 +1,5 @@
 
-## RideInsights 50K Decoding Bengaluru’s Ola Patterns with SQL
+## RideInsights 50K Decoding Bengaluru’s Ola Patterns with SQL 
 ---
 [![SQL](https://img.shields.io/badge/SQL-Data%20Querying-blue?style=flat-square)](https://www.mysql.com/)
 [![MySQL WorkBench](https://img.shields.io/badge/MySQL%20WorkBench-Database%20Management-orange?style=flat-square)](https://www.mysql.com/products/workbench/)
