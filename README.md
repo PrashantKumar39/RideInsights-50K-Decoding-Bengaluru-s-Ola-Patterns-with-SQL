@@ -143,9 +143,7 @@ Overall, this analysis led to **data-backed recommendations** to minimize cancel
 
 ## Developed By
 
-**Name:** Prashant Kumar  
-**Email:** [prashantkumaryt53@gmail.com](mailto:prashantkumaryt53@gmail.com)
-
+**Name:** Prashant Kumar 
 
 
 
